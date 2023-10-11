@@ -1,0 +1,56 @@
+.header {
+    padding: 30px;
+    text-align: left;
+    background-color: orangered;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+.content > div {
+    padding: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sidebar {
+    width: 20vw;
+    height: 70vh;
+    background-color: orange;
+    float: left;
+}
+.main {
+    background: lightskyblue;
+    width: 80vw;
+    height: 70vh;
+    float: left;
+}
+.footer {
+    background: green;
+    clear: both;
+    height: 15vh;
+}
+.logo {
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 4px;
+    width: 10vw;
+    height: 5vh;
+    background: red;
+}
+.navigation {
+    margin-left: 80vw;
+    margin-top: 5px;
+    text-align: center;
+    padding: 4px;
+    width: 10vw;
+    height: 5vh;
+    background: red;
+}
